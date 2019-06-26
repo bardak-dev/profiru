@@ -1,0 +1,17 @@
+{
+  "name": "profi.ru-test",
+  "version": "0.1.0-alpha.0",
+  "private": true,
+  "scripts": {
+    "dev:back": "cd packages/back && yarn start:dev",
+    "dev:front": "cd packages/front && yarn start",
+    "start": "yarn dev:back & yarn dev:front",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

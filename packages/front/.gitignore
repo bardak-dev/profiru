@@ -1,0 +1,33 @@
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+.lock-wscript
+build/Release
+node_modules/
+jspm_packages/
+.npm
+.eslintcache
+.node_repl_history
+/build
+.next
+gen### macOS template
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+# Thumbnails
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

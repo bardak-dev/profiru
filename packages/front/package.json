@@ -1,0 +1,59 @@
+{
+  "name": "front",
+  "version": "0.1.0-alpha.0",
+  "license": "GNU LGPL",
+  "private": true,
+  "homepage": "http://localhost:2292",
+  "scripts": {
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@atlaskit/button": "^13.0.8",
+    "@atlaskit/css-reset": "^5.0.2",
+    "@atlaskit/empty-state": "^5.0.3",
+    "@atlaskit/icon": "^18.0.5",
+    "@atlaskit/logo": "^12.0.4",
+    "@atlaskit/page": "^11.0.2",
+    "@atlaskit/size-detector": "^8.0.1",
+    "@atlaskit/theme": "^9.1.1",
+    "@atlaskit/tooltip": "^15.0.1",
+    "apollo-boost": "^0.4.3",
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-client": "^2.6.3",
+    "apollo-link-context": "^1.0.18",
+    "apollo-link-error": "^1.1.11",
+    "apollo-link-http": "^1.5.15",
+    "apollo-link-ws": "^1.0.18",
+    "graphql": "^14.3.1",
+    "graphql-tag": "^2.10.1",
+    "js-cookie": "^2.2.0",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.8.6",
+    "react-loadable": "^5.5.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.0.1",
+    "styled-components": "3.5.0-0",
+    "subscriptions-transport-ws": "^0.9.16",
+    "use-global-hook": "^0.1.7",
+    "use-react-router": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router-dom": "^4.3.4",
+    "styled-components-ts": "^0.0.15",
+    "typescript": "3.4.5"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
