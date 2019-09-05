@@ -41,7 +41,7 @@ const server=async() => {
   app.use(
     cors({
       credentials:true,
-      origin:`http://${process.env.FRONT_HOST||'localhost'}:${process.env.FRONT_PORT||'3000'}`
+      origin:`${process.env.FRONT_URL||'http://localhost:3000'}`
     })
   );
   apolloServer.applyMiddleware({app,cors:false});
